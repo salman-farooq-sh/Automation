@@ -1,0 +1,3 @@
+from sublime_theme_changer import apply_prefered_dark_theme
+
+apply_prefered_dark_theme()
