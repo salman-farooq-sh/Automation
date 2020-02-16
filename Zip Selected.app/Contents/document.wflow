@@ -77,8 +77,6 @@
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +131,7 @@
 					<key>archiveName</key>
 					<string></string>
 					<key>destinationPath</key>
-					<string>~/Desktop</string>
+					<string></string>
 					<key>ignoreUnreadableItems</key>
 					<false/>
 				</dict>
@@ -214,12 +212,10 @@
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>356.000000:337.000000</string>
+				<string>356.000000:285.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Create Archive.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -229,7 +225,7 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>32C011C4-E400-49C3-9BB9-EDCF071BB23B</key>
+		<key>DC2B4544-D673-46F1-88C7-E29F58606C09</key>
 		<dict>
 			<key>from</key>
 			<string>90967F3A-2C9D-427C-8A3A-6600D8C6D62D - 90967F3A-2C9D-427C-8A3A-6600D8C6D62D</string>
