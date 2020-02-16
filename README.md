@@ -24,11 +24,13 @@ Apps with the other icon have been made through the Script Editor.
 <li>"Toggle Insanity.app": A quick toggle for all the custom key remappings I have done so that my laptop can be usable for people besides me, hehe.</li>
 <br>
 <li>
-"Toggle Night Mode.app": A global switch for toggling dark mode on everything. Dependency: https://www.python.org/
+"Toggle Night Mode.app": A global switch for toggling dark mode on everything. Dependency: https://www.python.org/ <br>
 Currently affecting: 
+<ol>
 <li>macOS dark mode</li>
 <li>Sublime Text theme</li>
 <li>More apps to be added</li>
+</ol>
 </li>
 <br>
 <li>Connect/Disconnect Headphones.app: Connect/Disconnect paired bluetooth headphones. Dependency: https://github.com/toy/blueutil</li>
