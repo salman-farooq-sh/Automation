@@ -34,4 +34,6 @@ Currently affecting:
 </li>
 <br>
 <li>Connect/Disconnect Headphones.app: Connect/Disconnect paired bluetooth headphones. Dependency: https://github.com/toy/blueutil</li>
+<br>
+<li>"Zip Selected.app": Make an archive from selected files/folders in Finder.</li>
 </ol>
