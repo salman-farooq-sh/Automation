@@ -24,7 +24,7 @@ Apps with the other icon have been made through the Script Editor.
 + **Toggle Insanity.app:** A quick toggle for all the custom key remappings I have done so that my laptop can be usable for people besides me, hehe.
 
 
-+ **Toggle Night Mode.app:** A global switch for toggling dark mode on everything. Currently affecting:  
++ **Toggle Dark Mode.app:** A global switch for toggling dark mode on everything. Currently affecting:  
   + macOS dark mode  
   + Sublime Text theme  
   + More apps to be added  
