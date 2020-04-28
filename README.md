@@ -25,9 +25,9 @@ Apps with the other icon have been made through the Script Editor.
 
 
 + **Toggle Night Mode.app:** A global switch for toggling dark mode on everything. Currently affecting:  
- > + macOS dark mode  
- > + Sublime Text theme  
- > + More apps to be added  
+  + macOS dark mode  
+  + Sublime Text theme  
+  + More apps to be added  
 
 
 + **Connect/Disconnect Headphones.app**: Connect/Disconnect paired bluetooth headphones. Dependency: [blueutil](https://github.com/toy/blueutil)
