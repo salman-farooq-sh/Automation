@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Description: Gets my phone into an unlocked and screen-turned-on state. 
-# Intended to be used by other scripts to perform tasks from here on.
-
 DEVICE_PASSWORD=$"1234" # '1234' is the password without the quotes
 adb=$"/Users/apple/Library/Android/sdk/platform-tools/adb"
 
@@ -15,26 +12,27 @@ var2=$"Result: Parcel(00000000 00000001   '........')"
 if [ "$var1" = "$var2" ]
 then
 
-    # var3 has output of command which checks if screen is on
-    var3=$("$adb" shell dumpsys deviceidle | grep mScreenOn)
-    # var4 has output of above command when screen is off    
-    var4=$"  mScreenOn=false" # white space in this string matters
-
-    # check if screen is off
-    if [ "$var3" = "$var4" ]
-    then
-        # Pressing the power button to turn screen on
-        "$adb" shell input keyevent "KEYCODE_POWER"
-    fi
+	"$adb" shell input keyevent "KEYCODE_WAKEUP"
 
     # screen is ON now but is locked
 
     # swipe from coords (400,1400) to coords (400,300) in 150ms, to 
     # show lock input screen:
-    "$adb" shell input touchscreen swipe 400 1400 400 300 100
+    "$adb" shell input touchscreen swipe 400 1400 400 300 150
 
     # input '1234' which is the password of the device
     "$adb" shell input text $DEVICE_PASSWORD
 fi
 
 # screen is unlocked and ON at this point
+
+# open 'Tethering & portable hotspot' settings screen: 
+"$adb" shell am start -n com.android.settings/.TetherSettings
+
+# tap at coords (1000, 1400) i.e. the 'USB tethering' toggle:
+"$adb" shell input tap 1000 1400
+
+
+
+
+
