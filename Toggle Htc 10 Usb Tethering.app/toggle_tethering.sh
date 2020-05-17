@@ -16,9 +16,9 @@ then
 
     # screen is ON now but is locked
 
-    # swipe from coords (400,1400) to coords (400,300) in 150ms, to 
+    # swipe from coords (700,2400) to coords (700,1800) in 90ms, to 
     # show lock input screen:
-    "$adb" shell input touchscreen swipe 400 1400 400 300 150
+    "$adb" shell input touchscreen swipe 700 2400 700 1800 90
 
     # input '1234' which is the password of the device
     "$adb" shell input text $DEVICE_PASSWORD

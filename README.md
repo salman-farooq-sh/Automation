@@ -13,7 +13,7 @@ Apps with the other icon have been made through the Script Editor.
 
 ## Brief description of all apps:
 
-+ **New Text Document.app:** Creates a file named "untitled" in the current finder window.
++ **New Text Document.app:** Creates a file named ```untitled``` in the current finder window.
 
 + **Restart WiFi.app:** For the flaky WiFi I have which starts working if you restart it.
 
@@ -26,7 +26,8 @@ Apps with the other icon have been made through the Script Editor.
 
 + **Toggle Dark Mode.app:** A global switch for toggling dark mode on everything. Currently affecting:  
   + macOS dark mode  
-  + Sublime Text theme  
+  + Sublime Text theme
+  + VS Code to be added
   + More apps to be added  
 
 
@@ -34,3 +35,4 @@ Apps with the other icon have been made through the Script Editor.
 
 + **Zip Selected.app**: Make an archive from selected files/folders in Finder.
 
++ **Move To Applications.app**: Makes moving newly installed applications to the ```/Applications``` folder faster.
